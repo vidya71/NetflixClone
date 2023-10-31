@@ -31,7 +31,7 @@ button{
     margin-left: 25px;
 }
 
-h1{
+.net{
     color: white;
     text-align: center;
     padding-top: 100px;
@@ -67,6 +67,38 @@ input{
     background-color: rgb(179, 35, 35);
 }
 .flex{
-    
     display: flex;
 }
+.division{
+    width: 100%;
+    height: 8px;
+    background-color:rgb(66, 62, 62);
+}
+.second-container{
+    background-color: black;
+   
+}
+.row{
+    display: flex;
+    height: 600px;
+}
+.image img{
+    width: 500px;
+    height: 400px;
+    padding-top: 100px;
+}
+  .text h2{
+    color: white;
+    font-size: 48px;
+    padding-left: 200px;
+  }
+  .text p{
+    color: white;
+    padding-left: 150px;
+  }
+  .text {
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-top: 200px;
+    float: left;
+  }
