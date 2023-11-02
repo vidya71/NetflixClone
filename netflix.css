@@ -163,3 +163,16 @@ input{
     width: 230px;
     height: 210px;
 }
+.row4{
+    display: flex;
+}
+.text4 h2 {
+    padding-top: 180px;
+    color: white;
+    font-size: 50px;
+}
+.image4 img{
+    margin-top: 60px;
+    width: 550px;
+    height: 450px;
+}
