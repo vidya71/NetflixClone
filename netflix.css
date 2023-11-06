@@ -132,6 +132,37 @@ input{
 .p2{
     padding-right: 500px;
 }
+.layout{
+    border: 2px solid rgb(127, 120, 120);
+    position: absolute;
+    left: 40%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    
+    border-radius: 10px;
+}
+
+.left-item{
+    position: relative;
+}
+.layout img{
+    height: 80px;
+    width: 60px;
+   
+    align-items: left;
+    justify-content: left;
+    
+}
+.layout p{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.layout p span{
+    color: blue;
+}
 .row3{
     display: flex;
     width: 100%;
@@ -153,15 +184,17 @@ input{
     font-family: sans-serif;
     font-size: 27px;
 }
-.feature_image {
-    width: 550px;
-    height: 440px;
-    margin-top:50px ;
+.card3 img{
+    height: 450px;
+    padding-top: 60px;
+    position: absolute;
 }
-.feature_backgroudvideo{
+.card3 video{
+    height: 280px;
+    width: 350px;
+    padding-top: 95px;
+    margin-left: 250px;
     
-    width: 230px;
-    height: 210px;
 }
 .row4{
     display: flex;
@@ -175,4 +208,38 @@ input{
     margin-top: 60px;
     width: 550px;
     height: 450px;
+}
+.feature5{
+    width: 100%;
+    height: 820px;
+}
+.feature5 h1{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.faq p{
+    border: 2px solid rgb(42, 41, 41);
+    background-color: rgb(42, 41, 41);
+    height: 70px;
+    width: 60rem;
+    margin-left: 270px;
+    
+}
+.faq p:hover{
+    background-color: rgb(60, 59, 59);
+}
+.f5{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+footer{
+    height: 300px;
+    background-color: black;
+}
+footer a{
+    color: grey;
 }
