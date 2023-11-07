@@ -12,7 +12,7 @@ img{
     padding-left:140px ;
     padding-top:20px ;
 }
-select{
+.lang{
     background: transparent;
     color: white;
     margin-left: 900px;
@@ -38,7 +38,7 @@ button{
     font-size: 50px;
     font-family: sans-serif;
 } 
-p{
+.para{
     color: white;
     text-align: center;
     font-size: 25px;
@@ -237,9 +237,51 @@ input{
     margin-bottom: 20px;
 }
 footer{
-    height: 300px;
+    height: 470px;
     background-color: black;
 }
 footer a{
-    color: grey;
+    color: rgb(202, 194, 194);
+    margin-top: 20px;
+}
+.que{
+    color: rgb(202, 194, 194);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: rgb(202, 194, 194);
+    padding: 5px;
+    margin-left: 90px
+  }
+  .grid-item {
+    margin: 10px 5px;
+    padding: 5px;
+    font-size: 10 px;
+    text-align: left;
+  }
+  .grid-item1{
+    left: 0;
+  }
+  .engbtn{
+    background: transparent;
+    color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 35px;
+    width: 100px;
+    padding-left: 10px;
+    border-radius: 2px;
+  }
+  .footer{
+    margin-left: 100px;
+    color: rgb(202, 194, 194);
+    margin-top: 20px;
+  }
+.call{
+    color: rgb(202, 194, 194);
+    margin-left: 100px;
+}
+.foot{
+    padding-top: 80px;
 }
